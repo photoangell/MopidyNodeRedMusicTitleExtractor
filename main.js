@@ -121,6 +121,7 @@ function RemoveDataErrors(str) {
    return str;
 }
 
+//remove this line in node red
 var msg = require("./jsonsamples/fip.json");
 
 if (msg.data.new_state.attributes.media_content_id.startsWith("tunein:"))
@@ -133,5 +134,6 @@ else
     msg.payload = RemoveDiacritics(msg.payload);
     msg.payload = RemoveDataErrors(msg.payload);
 
+//remove this line in node red
 console.log (msg);
 return msg;

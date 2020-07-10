@@ -122,18 +122,20 @@ function RemoveDataErrors(str) {
 }
 
 //remove this line in node red
-var msg = require("./jsonsamples/fip.json");
+var msg = require("./jsonsamples/gmusic.json");
 
+var mqtt = {};
 if (msg.data.new_state.attributes.media_content_id.startsWith("tunein:"))
-    msg.payload = GetTitle();
+    mqtt.track = GetTitle();
 else if (msg.data.new_state.attributes.media_content_id.startsWith("gmusic:"))
-    msg.payload = GetTitleArtist();
+    mqtt.track = GetTitleArtist();
 else 
-    msg.payload = GetUniqueTitleArtist();
+    mqtt.track = GetUniqueTitleArtist();
 
-    msg.payload = RemoveDiacritics(msg.payload);
-    msg.payload = RemoveDataErrors(msg.payload);
+    mqtt.track = RemoveDiacritics(mqtt.track);
+    mqtt.track = RemoveDataErrors(mqtt.track);
 
+mqtt.album = msg.data.new_state.attributes.media_album_name;
 //remove this line in node red
-console.log (msg);
-return msg;
+console.log (mqtt);
+return mqtt;

@@ -121,6 +121,7 @@ if (msg.data.new_state.attributes.media_content_id.startsWith("tunein:"))
 else 
     mqtt.track = GetUniqueTitleArtist();
 
+mqtt.state = msg.payload;
 mqtt.track = RemoveDiacritics(mqtt.track);
 mqtt.album = RemoveDiacritics(mqtt.album);
     

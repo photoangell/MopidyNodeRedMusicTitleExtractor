@@ -1,0 +1,63 @@
+{
+    "topic": "media_player.musicbox",
+    "payload": "playing",
+    "data": {
+        "entity_id": "media_player.musicbox",
+        "old_state": {
+            "entity_id": "media_player.musicbox",
+            "state": "playing",
+            "attributes": {
+                "source_list": ["-22.7c - Molecule", "A Deeper Understanding - War on Drugs", "AM Ambient", "Agnes Obel - Philharmonics", "Air- Moon Safari", "Ambient Sleeping Pill", "Amnesia - Mr Fingers", "Ancient FM", "Andrew Bird -The Mysterious Production of Eggs", "Andrew bird: fingerlings", "Anna RF - Hasan Is Loco", "Antartica - Vangelis", "Asyla - Ades - Mozart", "Bibio - Silver Wilkinson", "Bleeds - Roots Manuva", "Blood - Rhye", "Bon Entendeur - Aller-retour", "Br8nd0 - soundcloud", "Caetano Canta - Caetano Veloso", "Calling Out Of Context - Arthur Russell", "Cannibale - Calypso Valois", "Caravan Palace - Caravan Palace", "Chernobyl Soundtrack", "Chillhop Daydreams - Sugi.wa", "City Pop - Benny Sings", "Connan Mockasin - Caramel", "Dark Star - News from nowhere", "Devotion - Tirzah", "Dj Quads", "Elizabethan Street Songs - Tarleton's Jig", "Enter The Vaselines - The Vaselines", "Erroll Garner - A new kind of love", "Erroll Garner - CloseUp in Swing", "Feline - the stranglers", "Firewatch - original score", "Furi soundtrack", "Gemini Gemini - Jennie Abrahamson", "Go to School - the lemon twigs", "Gravity - Skence", "Hopelessness - Anohni", "Husn-u Hicaz Husnu Senlendirici", "Iron and wire - Our Endless Numbered Days", "Jon Lucien - Rashida", "Kings of convenience :Riot on an empty street.", "Kouyate-Neerman - Skyscrapers and deities", "La Pantoufle - Forever Pavot", "Late night tales - Groove Armada", "Lettre Infinie - -M-", "London Fields Radio", "Loving the Alien - David Bowie", "Lucien & the Kimono Orchestra", "Lucio Dalla - best of", "Lucius - good grief", "Mantra - Jean du Voyage", "Melody of Certain Damaged Lemons - Blonde Redhead", "Metromonk - Manu Delago", "Minnie Riperton Les Fleurs", "Mock and toof - tuning echos", "Music Components - Arnaud Rebotini", "NTS Radio 1", "NTS Radio 2", "New Directions - John Coltrane", "Noble Beast - Andrew Bird", "Nowhere - knowmadic", "Odyssey - Home", "Olympic - French 79", "Open - Grandbrothers", "Orwell - feeding ear", "Oxygene - Jean Michel Jarre", "Paris - Taxi Girl", "Parsley Sounds", "Passion - Peter Gabriel", "Picnic on Mars - Parsely Sound", "Polygondwanaland - King Gizzard And The Lizard Wizard", "Polysensuality - Scott Gailey", "Rhye - Woman", "Rituels - Zero Degre", "Safe in the hands of love - yves tumor", "San Sebastian 2012 - Tindersticks", "Sauvage Formes - Orchestre Tout Puissant Marcel Duchamp", "Schubert Impromptus", "She - Muthoni Drummer Queen", "Silver & Gold - Sufjan Stevens", "Spanish Music of Travel and Discovery - Waverly Consort", "Spirits Known and Unknown - Leon Thomas", "Tangerine Dream 955 live youtube", "Tangerine Dream at Union Chapel", "The Lollipops - Complete 1966 1971", "The Oracle - Angel Bat Dawid", "The Story of Trojan Records", "The Witch - Pumarosa", "The Year After - French 79", "Tirzah - Make it up", "Troublemakers - Doubts and Convictions", "Unknown mortal orchestra - Multi-Love", "Vanishing Twin - chose your own adventure", "Vie Future La Feline", "Volcano - Temples", "Way Down Below Buffalo Hell - Jam Nation", "World of Elizabethan Music", "You tube retro", "[Radio Streams]", "adventures in your own backyard - patrick watson", "deru - 1979", "fip", "fip 2", "fip bordeaux icecast", "flume - flume", "it's album Time - Todd Terje", "kill for love - chromatics", "l'ecole du micro d'argent - IAM", "malik djoudi", "nick mulvey - first mind", "orwell  - feeding ear", "orwell ignorance is strength", "pandora - stan getz", "silicon - personal computer", "BPB", "Beats", "Cocktail ", "Mr Robot - Soundtrack", "Mr. Robot - Season 2", "Music of my mind", "On-The-Go 1", "On-The-Go 2", "On-The-Go 3", "Top", "Tunes"],
+                "volume_level": 0.89,
+                "is_volume_muted": false,
+                "media_content_id": "gmusic:track:Tcqo22fenmgo7rrjlwg7szsqlqu",
+                "media_content_type": "music",
+                "media_duration": "90",
+                "media_position": "43:90",
+                "media_position_updated_at": "2020-07-14T13:50:49.036603+00:00",
+                "media_title": "Basmati",
+                "media_artist": "Chilly Gonzales",
+                "media_album_name": "Solo Piano",
+                "shuffle": false,
+                "friendly_name": "MusicBox",
+                "supported_features": 65471
+            },
+            "last_changed": "2020-07-14T13:17:20.032309+00:00",
+            "last_updated": "2020-07-14T13:50:49.037879+00:00",
+            "context": {
+                "id": "c8f79c4f6eac463fa9f396a06ec005d0",
+                "parent_id": null,
+                "user_id": null
+            }
+        },
+        "new_state": {
+            "entity_id": "media_player.musicbox",
+            "state": "playing",
+            "attributes": {
+                "source_list": ["-22.7c - Molecule", "A Deeper Understanding - War on Drugs", "AM Ambient", "Agnes Obel - Philharmonics", "Air- Moon Safari", "Ambient Sleeping Pill", "Amnesia - Mr Fingers", "Ancient FM", "Andrew Bird -The Mysterious Production of Eggs", "Andrew bird: fingerlings", "Anna RF - Hasan Is Loco", "Antartica - Vangelis", "Asyla - Ades - Mozart", "Bibio - Silver Wilkinson", "Bleeds - Roots Manuva", "Blood - Rhye", "Bon Entendeur - Aller-retour", "Br8nd0 - soundcloud", "Caetano Canta - Caetano Veloso", "Calling Out Of Context - Arthur Russell", "Cannibale - Calypso Valois", "Caravan Palace - Caravan Palace", "Chernobyl Soundtrack", "Chillhop Daydreams - Sugi.wa", "City Pop - Benny Sings", "Connan Mockasin - Caramel", "Dark Star - News from nowhere", "Devotion - Tirzah", "Dj Quads", "Elizabethan Street Songs - Tarleton's Jig", "Enter The Vaselines - The Vaselines", "Erroll Garner - A new kind of love", "Erroll Garner - CloseUp in Swing", "Feline - the stranglers", "Firewatch - original score", "Furi soundtrack", "Gemini Gemini - Jennie Abrahamson", "Go to School - the lemon twigs", "Gravity - Skence", "Hopelessness - Anohni", "Husn-u Hicaz Husnu Senlendirici", "Iron and wire - Our Endless Numbered Days", "Jon Lucien - Rashida", "Kings of convenience :Riot on an empty street.", "Kouyate-Neerman - Skyscrapers and deities", "La Pantoufle - Forever Pavot", "Late night tales - Groove Armada", "Lettre Infinie - -M-", "London Fields Radio", "Loving the Alien - David Bowie", "Lucien & the Kimono Orchestra", "Lucio Dalla - best of", "Lucius - good grief", "Mantra - Jean du Voyage", "Melody of Certain Damaged Lemons - Blonde Redhead", "Metromonk - Manu Delago", "Minnie Riperton Les Fleurs", "Mock and toof - tuning echos", "Music Components - Arnaud Rebotini", "NTS Radio 1", "NTS Radio 2", "New Directions - John Coltrane", "Noble Beast - Andrew Bird", "Nowhere - knowmadic", "Odyssey - Home", "Olympic - French 79", "Open - Grandbrothers", "Orwell - feeding ear", "Oxygene - Jean Michel Jarre", "Paris - Taxi Girl", "Parsley Sounds", "Passion - Peter Gabriel", "Picnic on Mars - Parsely Sound", "Polygondwanaland - King Gizzard And The Lizard Wizard", "Polysensuality - Scott Gailey", "Rhye - Woman", "Rituels - Zero Degre", "Safe in the hands of love - yves tumor", "San Sebastian 2012 - Tindersticks", "Sauvage Formes - Orchestre Tout Puissant Marcel Duchamp", "Schubert Impromptus", "She - Muthoni Drummer Queen", "Silver & Gold - Sufjan Stevens", "Spanish Music of Travel and Discovery - Waverly Consort", "Spirits Known and Unknown - Leon Thomas", "Tangerine Dream 955 live youtube", "Tangerine Dream at Union Chapel", "The Lollipops - Complete 1966 1971", "The Oracle - Angel Bat Dawid", "The Story of Trojan Records", "The Witch - Pumarosa", "The Year After - French 79", "Tirzah - Make it up", "Troublemakers - Doubts and Convictions", "Unknown mortal orchestra - Multi-Love", "Vanishing Twin - chose your own adventure", "Vie Future La Feline", "Volcano - Temples", "Way Down Below Buffalo Hell - Jam Nation", "World of Elizabethan Music", "You tube retro", "[Radio Streams]", "adventures in your own backyard - patrick watson", "deru - 1979", "fip", "fip 2", "fip bordeaux icecast", "flume - flume", "it's album Time - Todd Terje", "kill for love - chromatics", "l'ecole du micro d'argent - IAM", "malik djoudi", "nick mulvey - first mind", "orwell  - feeding ear", "orwell ignorance is strength", "pandora - stan getz", "silicon - personal computer", "BPB", "Beats", "Cocktail ", "Mr Robot - Soundtrack", "Mr. Robot - Season 2", "Music of my mind", "On-The-Go 1", "On-The-Go 2", "On-The-Go 3", "Top", "Tunes"],
+                "volume_level": 0.89,
+                "is_volume_muted": false,
+                "media_content_id": "gmusic:track:Tcqo22fenmgo7rrjlwg7szsqlqu",
+                "media_content_type": "music",
+                "media_duration": "90",
+                "media_position": "54:90",
+                "media_position_updated_at": "2020-07-14T13:51:00.051091+00:00",
+                "media_title": "Basmati",
+                "media_artist": "Chilly Gonzales",
+                "media_album_name": "Solo Piano",
+                "shuffle": false,
+                "friendly_name": "MusicBox",
+                "supported_features": 65471
+            },
+            "last_changed": "2020-07-14T13:17:20.032309+00:00",
+            "last_updated": "2020-07-14T13:51:00.052252+00:00",
+            "context": {
+                "id": "86905d39ce3b48b2889b413f4cc01b90",
+                "parent_id": null,
+                "user_id": null
+            },
+            "timeSinceChangedMs": 2020027
+        }
+    },
+    "_msgid": "dfed1c5.d069ce"
+}

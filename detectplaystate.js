@@ -3,7 +3,8 @@ var msg = require("./jsonsamples/stoppedplaying.json");
 
 if (msg.data.attributes.media_position.startsWith("0:")) {
     msg = {};
-    msg.payload = "stopped";
+    msg.payload = {};
+    msg.payload.state = "stopped";
     return msg;
 }
 

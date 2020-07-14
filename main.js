@@ -101,41 +101,32 @@ function GetTitle() {
     return title.substring(colonPosition).trim();
 }
 
-function GetTitleArtist() {
-    var title = msg.data.new_state.attributes.media_title;
-    var artist = msg.data.new_state.attributes.media_artist;
-    return title + " - " + artist;
-}
-
 function GetUniqueTitleArtist() {
-    var title = msg.data.new_state.attributes.media_title;
-    var artist = msg.data.new_state.attributes.media_artist;
-    if (title == artist)
+    var title = msg.data.new_state.attributes.media_title || '';
+    var artist = msg.data.new_state.attributes.media_artist || '';
+    if (title === artist || artist === '')
         return title;
     return title + " - " + artist;
 }
 
-function RemoveDataErrors(str) {
-   str = str.replace(" - undefined", "");
-   str = str.replace("undefined - ", "");
-   return str;
-}
-
 //remove this line in node red
-var msg = require("./jsonsamples/gmusic.json");
+var msg = require("./jsonsamples/gmusic2.json");
 
 var mqtt = {};
+
+mqtt.album = msg.data.new_state.attributes.media_album_name || '';
+
 if (msg.data.new_state.attributes.media_content_id.startsWith("tunein:"))
     mqtt.track = GetTitle();
-else if (msg.data.new_state.attributes.media_content_id.startsWith("gmusic:"))
-    mqtt.track = GetTitleArtist();
 else 
     mqtt.track = GetUniqueTitleArtist();
 
-    mqtt.track = RemoveDiacritics(mqtt.track);
-    mqtt.track = RemoveDataErrors(mqtt.track);
-
-mqtt.album = msg.data.new_state.attributes.media_album_name;
+mqtt.track = RemoveDiacritics(mqtt.track);
+mqtt.album = RemoveDiacritics(mqtt.album);
+    
 //remove this line in node red
 console.log (mqtt);
-return mqtt;
+
+msg = {};
+msg.payload = mqtt;
+return msg;
